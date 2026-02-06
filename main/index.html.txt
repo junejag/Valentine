@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Will You Be My Valentine?</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom, #ffe6eb, #fff);
+      text-align: center;
+      padding: 50px;
+      color: #8b1e3f;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.3em;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    button {
+      font-size: 1.2em;
+      padding: 15px 30px;
+      background-color: #e63946;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    button:hover {
+      background-color: #d62839;
+    }
+    #response {
+      margin-top: 40px;
+      font-size: 1.5em;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Love ❤️</h1>
+
+  <p>
+    Every day with you is my favorite day.  
+    You make my life warmer, brighter, and fuller in ways I never imagined.
+  </p>
+
+  <p>
+    So I wanted to ask you in a way that's as special as you are…
+  </p>
+
+  <h1>Will you be my Valentine?</h1>
+
+  <button onclick="showLove()">Yes, of course 💕</button>
+
+  <div id="response">
+    <p>
+      I knew it 😊  
+      I can’t wait to celebrate our love with you.
+    </p>
+    <p>
+      Forever yours ❤️
+    </p>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("response").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
